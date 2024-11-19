@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'customCursive';
+  src: url('./assets/fonts/DancingScript-Bold.ttf');
+  font-weight: 1000;
+}
+
+@font-face{
+  font-family: 'suez';
+  src: url('./assets/fonts/SuezOne-Regular.ttf');
+  font-weight: 1000;
+}

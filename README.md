@@ -1,22 +1,8 @@
-# GameFury Template  
+# React + Vite
 
-GameFury is a sleek and customizable gaming website template designed to deliver an immersive experience for gaming communities, developers, and content creators.  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features  
-- Responsive design for all devices  
-- Interactive sections for showcasing games and updates  
-- Modern aesthetics with vibrant color schemes  
-- Easy to customize and integrate  
+Currently, two official plugins are available:
 
-## Technologies Used  
-- HTML5  
-- CSS3  
-- React Js
-
-## Usage  
-1. Clone the repository:  
-   `git clone https://github.com/username/game-fury-template.git`  
-2. Customize content and assets as per your needs.  
-3. Deploy on your favorite platform.  
-
-Get started and make your gaming presence unforgettable with GameFury!  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
