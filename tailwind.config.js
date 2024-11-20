@@ -9,7 +9,8 @@ export default {
       colors:{
         'poinciana':'#da392b',
         'montego-bay'  :'#f6f4f0',
-        'midnight-velvet':'#272443'
+        'midnight-velvet':'#272443',
+        'vanilla-pudding':'#f6e66a'
       },
       fontFamily: {
         'cursive':['customCursive'],
