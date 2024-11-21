@@ -1,5 +1,5 @@
 import React from "react";
-import kippon from "../assets/images/games/kipon.jpg";
+import kippon from "../../assets/images/games/kipon.jpg";
 
 
 const GameCard = ({game}) => {

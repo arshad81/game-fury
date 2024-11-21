@@ -1,6 +1,6 @@
 import React from "react";
-import GameCard from "./GameCard";
-import kippon from "../assets/images/games/kipon.jpg";
+import GameCard from "./HomeGameCard";
+import kippon from "../../assets/images/games/kipon.jpg";
 
 
 const GameCardGrid = () => {
@@ -23,7 +23,7 @@ const GameCardGrid = () => {
   ];
 
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mt-8">
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 my-8">
       {games.map((game, index) => (
         <GameCard key={index} game={game} />
       ))}

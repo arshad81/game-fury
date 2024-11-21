@@ -6,13 +6,13 @@ const Header = () => {
 
   return (
     <header>
-      <div className="bg-montego-bay z-10 max-w-7xl mx-auto lg:bg-transparent lg:flex lg:justify-between lg:items-stretch lg:absolute lg:w-full lg:start-1/2 lg:-translate-x-1/2">
+      <div className={`transition-all duration-200 delay-150 fixed w-full bg-montego-bay z-40 max-w-7xl mx-auto lg:bg-transparent lg:flex lg:justify-between lg:items-stretch lg:absolute lg:w-full lg:start-1/2 lg:-translate-x-1/2 ${menuActive ? '' : ''} `}>
         <div
-          className={`absolute z-30 transition-all duration-200 h-full w-full bg-white lg:hidden ${
+          className={`absolute z-30 transition-all duration-200 h-screen w-full bg-white lg:hidden ${
             menuActive ? "" : "-translate-y-full"
           }  z-10 `}
         >
-            <ul className={` delay-150 duration-200 fixed transition-all ps-8  ${menuActive ? 'translate-y-28':'-translate-y-full'}`}>
+            <ul className={` duration-200 fixed transition-all ps-8  ${menuActive ? 'translate-y-28':'-translate-y-full'}`}>
                 <li className="text-2xl">Home</li>
                 <li className="text-2xl my-5">Home</li>
                 <li className="text-2xl my-5">Home</li>
