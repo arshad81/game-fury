@@ -4,19 +4,28 @@ import HomeGameCardGrid from "../components/homepage/HomeGameCardGrid";
 import HomeCareer from "../components/homepage/HomeCareer";
 import HomeBanner from "../components/homepage/HomeBanner";
 import HomeAbout from "../components/homepage/HomeAbout";
+import HomeOurGames from "../components/homepage/HomeOurGames";
+import GetInTouch from "../components/homepage/GetInTouch";
+import Footer  from "../components/common/Footer";
 
 function Homepage() {
   return (
-    <>
+    <div className="bg-montego-bay pb-12">
       <HomeHeader />
       <HomeBanner />
       <div className="max-w-7xl mx-6 lg:mx-auto lg:px-6">
         <HomeGameCardGrid />
         <HomeAbout/>
+        <HomeOurGames/>
       </div>
-      <HomeCareer />
-      <div style={{ height: "1000px" }}></div>
-    </>
+      <div className="mt-10 lg:mt-52">
+        <HomeCareer />
+      </div>
+      <GetInTouch/>
+      <div className="max-w-7xl mx-6 lg:mx-auto lg:px-6">
+        <Footer />
+      </div>
+    </div>
   );
 }
 

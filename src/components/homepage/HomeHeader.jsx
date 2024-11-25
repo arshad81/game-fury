@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className={`transition-all duration-200 delay-150 fixed w-full bg-montego-bay z-40 max-w-7xl mx-auto lg:bg-transparent lg:flex lg:justify-between lg:items-stretch lg:absolute lg:w-full lg:start-1/2 lg:-translate-x-1/2 ${menuActive ? '' : ''} `}>
+      <div className={`transition-all duration-200 delay-150 fixed w-full bg-montego-bay z-40 max-w-7xl mx-auto lg:bg-transparent lg:flex lg:justify-between lg:items-stretch lg:w-full lg:start-1/2 lg:-translate-x-1/2 ${menuActive ? '' : ''} `}>
         <div
           className={`absolute z-30 transition-all duration-200 h-screen w-full bg-white lg:hidden ${
             menuActive ? "" : "-translate-y-full"
