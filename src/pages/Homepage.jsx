@@ -10,8 +10,7 @@ import Footer  from "../components/common/Footer";
 
 function Homepage() {
   return (
-    <div className="bg-montego-bay pb-12">
-      <HomeHeader />
+    <div className=" pb-12">
       <HomeBanner />
       <div className="max-w-7xl mx-6 lg:mx-auto lg:px-6">
         <HomeGameCardGrid />
@@ -22,9 +21,6 @@ function Homepage() {
         <HomeCareer />
       </div>
       <GetInTouch/>
-      <div className="max-w-7xl mx-6 lg:mx-auto lg:px-6">
-        <Footer />
-      </div>
     </div>
   );
 }

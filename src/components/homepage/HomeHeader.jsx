@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
           }  z-10 `}
         >
             <ul className={` duration-200 fixed transition-all ps-8  ${menuActive ? 'translate-y-28':'-translate-y-full'}`}>
-                <li className="text-2xl">Home</li>
+                <li className="text-2xl"><Link to="/career">Home</Link> </li>
                 <li className="text-2xl my-5">Home</li>
                 <li className="text-2xl my-5">Home</li>
                 <li className="text-2xl my-5">Home</li>
@@ -80,12 +81,12 @@ const Header = () => {
         </div>
 
         <ul className="hidden lg:flex shadow-lg rounded-b-lg overflow-hidden">
-          <li className="flex items-center py-5 px-8 bg-poinciana text-white">
-            Home
-          </li>
-          <li className="flex items-center py-5 px-8 bg-white hover:bg-poinciana hover:text-white">Home</li>
-          <li className="flex items-center py-5 px-8 bg-white hover:bg-poinciana hover:text-white">Home</li>
-          <li className="flex items-center py-5 px-8 bg-white hover:bg-poinciana hover:text-white">Home</li>
+        <NavLink className={({isActive})=>`${isActive ? 'bg-poinciana text-white ' : 'bg-white '}flex items-center py-5 px-8  hover:bg-poinciana hover:text-white `} to="/">
+          Home
+          </NavLink>
+          <NavLink className={({isActive})=>`${isActive ? 'bg-poinciana text-white ' : 'bg-white '}flex items-center py-5 px-8  hover:bg-poinciana hover:text-white `} to="/career">
+          Career
+          </NavLink>
         </ul>
       </div>
     </header>

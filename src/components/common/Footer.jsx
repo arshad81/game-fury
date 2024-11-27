@@ -3,7 +3,7 @@ import googlePlay from "../../assets/images/homepage/Google.png";
 
 const Footer = () => {
   return (
-    <div className="bg-montego-bay px-4">
+    <div className=" px-4">
       <h1 className="bg-poinciana text-white font-cursive w-fit px-6 pb-3 pt-2 mx-auto mt-5 rounded-b-lg  text-3xl lg:-mt-16 relative z-10">
         Game Fury
       </h1>
@@ -45,8 +45,7 @@ const Footer = () => {
           <img src={googlePlay} alt="" className="mt-3 pb-3" />
         </div>
       </div>
-      <div className="h-px bg-midnight-velvet my-12 w-full"></div>
-
+      <div className="h-px bg-midnight-velvet mt-12 w-full"></div>
     </div>
   );
 };
