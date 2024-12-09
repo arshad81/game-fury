@@ -84,7 +84,7 @@ const Header = () => {
         <NavLink className={({isActive})=>`${isActive ? 'bg-poinciana text-white ' : 'bg-white '}flex items-center py-5 px-8  hover:bg-poinciana hover:text-white `} to="/">
           Home
           </NavLink>
-          <NavLink className={({isActive})=>`${isActive ? 'bg-poinciana text-white ' : 'bg-white '}flex items-center py-5 px-8  hover:bg-poinciana hover:text-white `} to="/games/abc">
+          <NavLink className={({isActive})=>`${isActive ? 'bg-poinciana text-white ' : 'bg-white '}flex items-center py-5 px-8  hover:bg-poinciana hover:text-white `} to="/games/Kipon">
           Games
           </NavLink>          
           <NavLink className={({isActive})=>`${isActive ? 'bg-poinciana text-white ' : 'bg-white '}flex items-center py-5 px-8  hover:bg-poinciana hover:text-white `} to="/career">
